@@ -4,7 +4,7 @@ package LiskovSubstitution.Correct;
 // This adheres to the LSP because we can use both Rectangle and Square objects 
 // interchangeably through the Shape interface without causing incorrect behavior in our program.
 
-public class Square implements Shape{
+public class Square implements Shape {
     public int side;
 
     public Square(int side) {
@@ -23,5 +23,5 @@ public class Square implements Shape{
     public double getArea() {
         return side * side;
     }
-    
+
 }
