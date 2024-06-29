@@ -5,8 +5,7 @@ public class Singleton {
     private static Singleton singletonObject = new Singleton();
 
     // 2. Private constructor
-    private Singleton() {
-    }
+    private Singleton() {}
     
     // 3. Getter method returning Singleton object
     public static Singleton getSingletonInstance() {
